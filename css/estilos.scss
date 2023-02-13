@@ -133,6 +133,11 @@ body{
     }
 }
 //Tienda//
+@mixin sizes ($width, $height, $bgcolor) {
+    height: $height;
+    width: $width;
+    background-color: $bgcolor;
+}
 .proce{
     display: flex;
     background-color: white;
@@ -141,9 +146,7 @@ body{
     border: 3px solid black;
     margin-right: 300px;
     .intel{
-        background-color: white;
-        height: 200px;
-        width: auto;
+        @include sizes(200px, auto, white )
     }
     .intel1{
         height: 200px;
