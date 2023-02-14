@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("../img/nebulosa.jpg");
   background-attachment: fixed;
@@ -144,9 +150,9 @@ body {
   margin-right: 300px;
 }
 .proce .intel {
-  background-color: white;
   height: 200px;
   width: auto;
+  background-color: white;
 }
 .proce .intel1 {
   height: 200px;
