@@ -144,6 +144,10 @@ h4{
     height: auto;
 }
 //Tienda//
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
 .proce{
     display: flex;
     background-color: white;
@@ -152,13 +156,12 @@ h4{
     border: 3px solid black;
     margin-right: 300px;
     .intel{
-        height: 200px;
-        width: auto;
-        background-color: white;
+        @include sizes(auto, 200px);
     }
     .intel1{
         height: 200px;
         width: 200px;
+        background-color: white;
     }
     .intel2{
         height: 200px;
