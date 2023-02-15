@@ -9,16 +9,19 @@ body{
     overflow-x: hidden;
     font-size: 16px;
 }
+header{
+    margin-bottom: 100px;
+}
 //Index//
 .rx{
-    margin: 60px;
-    background-color: none;
+    margin: auto;
     display: flex;
 }
 .grafica{
     margin: 60px;
     background-color: none;
-    display: flex;
+    height: auto;
+    width: auto;
 }
 h1{
     color: white;
@@ -49,11 +52,11 @@ h1{
     width: 400px;
     height: 350px;
     padding: 5px;
-    margin-left: 200px;
+    margin-left: 25%;
 }
 .lap{
-    width: 390px;
-    height: 354px;
+    width: auto;
+    height: auto;
     margin-left: 300px;
 }
 h2{
@@ -63,7 +66,7 @@ h2{
     color: black;
     margin: 10px;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 16px;
         
 }
 h3{
@@ -98,8 +101,8 @@ h4{
 .txtenvio{
     background-color: rgb(250, 230, 141);
     color: black;
-    height: 185px;
-    font-size: 30px;
+    height: auto;
+    font-size: 20px;
     margin-top: 20px;
     margin-bottom: 110px;
     border: 5px solid orange;
@@ -113,7 +116,7 @@ h4{
 .txtnosotros{
     background-color: rgb(250, 230, 141);
     color: black;
-    height: 220px;
+    height: auto;
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 68px;
@@ -124,7 +127,7 @@ h4{
     height: 400px;
     display: block;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 //productos//
 .tit1{
@@ -137,11 +140,17 @@ h4{
     font-size: 50px;
     text-align: center;
 }
-.rx7, .rtx{
+.rx7{
     display: block;
     margin: auto;
     width: auto;
-    height: auto;
+    height: 270px;
+}
+.rtx{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 300px;
 }
 //Tienda//
 @mixin sizes ($width, $height) {
@@ -159,12 +168,12 @@ h4{
         @include sizes(auto, 200px);
     }
     .intel1{
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 18git0px;
         background-color: white;
     }
     .intel2{
-        height: 200px;
+        height: 180px;
         width: 200px;
     }
     .tit1{
@@ -243,24 +252,23 @@ footer p{
         margin-left: 0;
     }
     .txt1{
-        font-size: 10px;
+        font-size: 16px;
     }
     .txttit{
-        font-size: 15px;
+        font-size: 16px;
     }
     .radeon{
-        height: 100px;
-        width: 100px;
+        visibility: hidden;
     }
     .txt2{
-        font-size: 11px;
+        font-size: 16px;
     }
     .txttitulosindex{
         font-size: 20px;
     }
     .procesadores{
         background-color: white;
-        height: 1150px;
+        height: auto;
         margin-top: 150px;
         display: inline-block;
         width: 100%;
@@ -284,14 +292,14 @@ footer p{
         margin-left: 60px;
     }
     .txt3{
-        font-size: 12px;
+        font-size: 16px;
         margin-left: 60px;
     }
     .txttitulosindex2{
         margin-left: 140px;
     }
     .txt4{
-        font-size: 12px;
+        font-size: 16px;
         margin-left: 120px ;
     }
     .txttitulosindex3{
@@ -316,5 +324,97 @@ footer p{
     }
     .sumar{
         color: white;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .grafica{
+        height: 200px;
+        width: 300px;
+        margin-left: -80px;
+    }
+    .txttit{
+        font-size: 18px;
+        text-align: left;
+        margin-left: -60px;
+    }
+    .txt1{
+        font-size: 16px;
+        margin-left: -60px;
+    }
+    .radeon{
+        height: auto;
+        width: auto;
+        margin-left: -60px;
+    }
+    .procesadores{
+        background-color: white;
+        height: auto;
+        margin-top: 150px;
+        display: inline-block;
+        width: 100%;
+    }
+    .i9{
+        margin-left: 50%;
+        width: 400px;
+        height: auto;
+    }
+    .txttitulosindex2{
+        margin-left: 30%;
+    }
+    .txt3{
+        margin-left: 15%;
+    }
+    .txt2{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 60px;
+    }
+    .lap{
+        margin-left: 120px;
+        height: auto;
+    }
+    .txt4{
+        margin-left: 45%;
+    }
+    .txttitulosindex3{
+        margin-left: 35%;
+    }
+}
+@media only screen and (max-width: 1700px){
+    .radeon{
+
+    }
+    .procesadores{
+        background-color: white;
+        height: auto;
+        margin-top: 150px;
+        width: 100%;
+    }
+    .i9{
+        margin-left: 4%;
+        width: 400px;
+        height: auto;
+    }
+    .txttitulosindex2{
+        margin-left: 30%;
+    }
+    .txt3{
+        margin-left: 15%;
+    }
+    .txt2{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 60px;
+    }
+    .lap{
+        margin-left: 0%;
+        height: auto;
+
+    }
+    .txt4{
+        margin-left: 15%;
+    }
+    .txttitulosindex3{
+        margin-left: 35%;
     }
 }
