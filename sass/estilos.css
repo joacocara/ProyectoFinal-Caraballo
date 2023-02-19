@@ -11,73 +11,91 @@ body {
   font-size: 16px;
 }
 
+header {
+  margin-bottom: 100px;
+}
+
 .rx {
-  margin: 60px;
-  background-color: none;
+  margin: auto;
   display: flex;
 }
-.rx .grafica {
+
+.grafica {
   margin: 60px;
   background-color: none;
-  display: flex;
+  height: auto;
+  width: auto;
 }
-.rx h1 {
+
+h1 {
   color: white;
   text-align: center;
   margin-top: 10px;
 }
-.rx .txt1 {
+
+.txt1 {
   color: white;
   text-align: center;
 }
-.rx .radeon {
+
+.radeon {
   width: 200px;
   height: 150px;
   margin-left: 15px;
 }
-.rx .procesadores {
+
+.procesadores {
   background-color: white;
   width: auto;
   height: 470px;
   display: flex;
 }
-.rx .r9 {
+
+.r9 {
   width: 500px;
   height: 360px;
 }
-.rx .i9 {
+
+.i9 {
   width: 400px;
   height: 350px;
   padding: 5px;
-  margin-left: 200px;
+  margin-left: 25%;
 }
-.rx .lap {
-  width: 390px;
-  height: 354px;
+
+.lap {
+  width: auto;
+  height: auto;
   margin-left: 300px;
 }
-.rx h2 {
+
+h2 {
   margin-left: 100px;
 }
-.rx .txt2 {
+
+.txt2 {
   color: black;
   margin: 10px;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 16px;
 }
-.rx h3 {
+
+h3 {
   margin-left: 280px;
   font-size: 20px;
 }
-.rx .txt3 {
+
+.txt3 {
   margin-left: 150px;
   font-family: sans-serif;
 }
-.rx h4 {
+
+h4 {
   margin-left: 450px;
   font-size: 20px;
 }
-.rx .txt4 {
+
+.txt4 {
   margin-left: 350px;
   font-family: sans-serif;
 }
@@ -98,8 +116,8 @@ body {
 .txtenvio {
   background-color: rgb(250, 230, 141);
   color: black;
-  height: 185px;
-  font-size: 30px;
+  height: auto;
+  font-size: 20px;
   margin-top: 20px;
   margin-bottom: 110px;
   border: 5px solid orange;
@@ -107,12 +125,14 @@ body {
 
 .nh1 {
   margin: 100px;
+  color: white;
+  text-align: center;
 }
 
 .txtnosotros {
   background-color: rgb(250, 230, 141);
   color: black;
-  height: 220px;
+  height: auto;
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 68px;
@@ -124,11 +144,13 @@ body {
   height: 400px;
   display: block;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 
 .tit1 {
   margin-top: 60px;
+  color: white;
+  text-align: center;
 }
 
 .gallery__item {
@@ -136,9 +158,19 @@ body {
   font-size: 50px;
   text-align: center;
 }
-.gallery__item .rx7, .gallery__item .rtx {
-  height: 400px;
-  width: 400px;
+
+.rx7 {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 270px;
+}
+
+.rtx {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 300px;
 }
 
 .proce {
@@ -152,14 +184,14 @@ body {
 .proce .intel {
   height: 200px;
   width: auto;
-  background-color: white;
 }
 .proce .intel1 {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 18git0px;
+  background-color: white;
 }
 .proce .intel2 {
-  height: 200px;
+  height: 180px;
   width: 200px;
 }
 .proce .tit1 {
@@ -238,27 +270,30 @@ footer p {
     margin-left: 0;
   }
   .txt1 {
-    font-size: 10px;
+    font-size: 16px;
   }
   .txttit {
-    font-size: 15px;
+    font-size: 16px;
   }
   .radeon {
-    height: 100px;
-    width: 100px;
+    visibility: hidden;
   }
   .txt2 {
-    font-size: 11px;
+    font-size: 16px;
   }
   .txttitulosindex {
     font-size: 20px;
   }
   .procesadores {
     background-color: white;
-    height: 1150px;
+    height: auto;
     margin-top: 150px;
     display: inline-block;
     width: 100%;
+  }
+  .grafica {
+    height: 200px;
+    width: 200px;
   }
   .r9 {
     height: 350px;
@@ -275,14 +310,14 @@ footer p {
     margin-left: 60px;
   }
   .txt3 {
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 60px;
   }
   .txttitulosindex2 {
     margin-left: 140px;
   }
   .txt4 {
-    font-size: 12px;
+    font-size: 16px;
     margin-left: 120px;
   }
   .txttitulosindex3 {
@@ -307,6 +342,94 @@ footer p {
   }
   .sumar {
     color: white;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .grafica {
+    height: 200px;
+    width: 300px;
+    margin-left: -80px;
+  }
+  .txttit {
+    font-size: 18px;
+    text-align: left;
+    margin-left: -60px;
+  }
+  .txt1 {
+    font-size: 16px;
+    margin-left: -60px;
+  }
+  .radeon {
+    height: auto;
+    width: auto;
+    margin-left: -60px;
+  }
+  .procesadores {
+    background-color: white;
+    height: auto;
+    margin-top: 150px;
+    display: inline-block;
+    width: 100%;
+  }
+  .i9 {
+    margin-left: 50%;
+    width: 400px;
+    height: auto;
+  }
+  .txttitulosindex2 {
+    margin-left: 30%;
+  }
+  .txt3 {
+    margin-left: 15%;
+  }
+  .txt2 {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 60px;
+  }
+  .lap {
+    margin-left: 120px;
+    height: auto;
+  }
+  .txt4 {
+    margin-left: 45%;
+  }
+  .txttitulosindex3 {
+    margin-left: 35%;
+  }
+}
+@media only screen and (max-width: 1700px) {
+  .procesadores {
+    background-color: white;
+    height: auto;
+    margin-top: 150px;
+    width: 100%;
+  }
+  .i9 {
+    margin-left: 4%;
+    width: 400px;
+    height: auto;
+  }
+  .txttitulosindex2 {
+    margin-left: 30%;
+  }
+  .txt3 {
+    margin-left: 15%;
+  }
+  .txt2 {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 60px;
+  }
+  .lap {
+    margin-left: 0%;
+    height: auto;
+  }
+  .txt4 {
+    margin-left: 15%;
+  }
+  .txttitulosindex3 {
+    margin-left: 35%;
   }
 }
 
