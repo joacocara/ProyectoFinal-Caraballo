@@ -1,0 +1,188 @@
+@media only screen and (max-width: 480px){
+    .truck{
+        height: 450px;
+        width: 450px;
+        margin-top: 70px;
+    }
+    .txtenvio{
+        font-size: 20px;
+    }
+    .txtnosotros{
+    background-color: rgb(250, 230, 141);
+    color: black;
+    height: 220px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 68px;
+    border: 5px solid orange;
+    }
+    .rx7, .rtx{
+        height: 400px;
+        width: 400px;
+    }
+    .rx{
+        height: 150px;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+    .txt1{
+        font-size: 16px;
+    }
+    .txttit{
+        font-size: 16px;
+    }
+    .txt2{
+        font-size: 16px;
+    }
+    .txttitulosindex{
+        font-size: 20px;
+    }
+    .procesadores{
+        background-color: white;
+        height: auto;
+        margin-top: 150px;
+        display: inline-block;
+        width: 100%;
+    }
+    .grafica{
+        height: 200px;
+        width: 200px;
+    }
+    .r9{
+        height: 350px;
+        width: 450px;
+    }
+    .i9{
+        height: 300px;
+        width: 350px;
+        margin-left: 70px;
+    }
+    .lap{
+        height: 300px;
+        width: 350px;
+        margin-left: 60px;
+    }
+    .txt3{
+        font-size: 16px;
+        margin-left: 60px;
+    }
+    .txttitulosindex2{
+        margin-left: 140px;
+    }
+    .txt4{
+        font-size: 16px;
+        margin-left: 120px ;
+    }
+    .txttitulosindex3{
+        margin-left: 170px;
+    }
+    .proce{
+        background-color: white;
+        width: 70%;
+        margin-top: 70px;
+        margin-left: 40px;
+    }
+    .txttienda{
+        margin-left: 0%;
+    }
+    .intel1{
+        height: 600px;
+        width: 580px;
+    }
+    .intel2{
+        height: 200px;
+        width: 170px;
+    }
+    .sumar{
+        color: white;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .grafica{
+        height: 200px;
+        width: 300px;
+        margin-left: -80px;
+    }
+    .txttit{
+        font-size: 18px;
+        text-align: left;
+        margin-left: -60px;
+    }
+    .txt1{
+        font-size: 16px;
+        margin-left: -60px;
+    }
+    .radeon{
+        height: auto;
+        width: auto;
+        margin-left: -60px;
+    }
+    .procesadores{
+        background-color: white;
+        height: auto;
+        margin-top: 150px;
+        display: inline-block;
+        width: 100%;
+    }
+    .i9{
+        margin-left: 50%;
+        width: 400px;
+        height: auto;
+    }
+    .txttitulosindex2{
+        margin-left: 30%;
+    }
+    .txt3{
+        margin-left: 15%;
+    }
+    .txt2{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 60px;
+    }
+    .lap{
+        margin-left: 120px;
+        height: auto;
+    }
+    .txt4{
+        margin-left: 45%;
+    }
+    .txttitulosindex3{
+        margin-left: 35%;
+    }
+}
+@media only screen and (max-width: 1700px){
+    .procesadores{
+        background-color: white;
+        height: auto;
+        margin-top: 150px;
+        width: 100%;
+    }
+    .i9{
+        margin-left: 4%;
+        width: 400px;
+        height: auto;
+    }
+    .txttitulosindex2{
+        margin-left: 30%;
+    }
+    .txt3{
+        margin-left: 15%;
+    }
+    .txt2{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 60px;
+    }
+    .lap{
+        margin-left: 0%;
+        height: auto;
+
+    }
+    .txt4{
+        margin-left: 15%;
+    }
+    .txttitulosindex3{
+        margin-left: 35%;
+    }
+}

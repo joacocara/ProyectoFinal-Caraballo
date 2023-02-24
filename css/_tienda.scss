@@ -1,0 +1,78 @@
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+.proce{
+    background-color: white;
+    border: 3px solid black;
+    margin-right: 100px;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 2%;
+    .intel{
+        @include sizes(auto, 200px);
+    }
+    .intel1{
+        height: 180px;
+        width: 180px;
+        background-color: white;
+        margin-top: 20px; 
+        
+    }
+    .intel2{
+        height: 180px;
+        width: 200px;
+        margin-top: 20px;
+    }
+    .intel3{
+        height: 150px;
+        width: 210px;
+        margin-top: 50px;
+    }
+    .intel4{
+        height: 250px;
+        width: 250px;
+    }
+    .tit1{
+        margin-top: 60px;
+    }
+    .txttienda{
+        font-size: 40px;
+        color: black;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .txttienda1{
+        font-size: 37.3px;
+        color: black;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .txttienda2{
+        font-size: 40.5px;
+        color: black;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    .intel5{
+        height: 250px;
+        height: 200px;
+    }
+    .p-one{
+        font-size: 50px;
+        margin-top: 50px;
+        color: #4675b9;
+        font-family: Montserrat,sans-serif;
+        margin-left: 40px;
+    }
+    .sumar{
+            background-color: #fd611a;
+            margin-left: 300px;
+            text-align: center;
+            margin-left: 1px;
+            margin-bottom: 0.5em;
+            display: inherit;
+            margin-top: 50px;
+            color: white;
+    }
+}

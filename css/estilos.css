@@ -1,18 +1,76 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.proce {
+  background-color: white;
+  border: 3px solid black;
+  margin-right: 100px;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 2%;
 }
-
-body {
-  background-image: url("../img/nebulosa.jpg");
-  background-attachment: fixed;
-  overflow-x: hidden;
-  font-size: 16px;
+.proce .intel {
+  height: 200px;
+  width: auto;
 }
-
-header {
-  margin-bottom: 100px;
+.proce .intel1 {
+  height: 180px;
+  width: 180px;
+  background-color: white;
+  margin-top: 20px;
+}
+.proce .intel2 {
+  height: 180px;
+  width: 200px;
+  margin-top: 20px;
+}
+.proce .intel3 {
+  height: 150px;
+  width: 210px;
+  margin-top: 50px;
+}
+.proce .intel4 {
+  height: 250px;
+  width: 250px;
+}
+.proce .tit1 {
+  margin-top: 60px;
+}
+.proce .txttienda {
+  font-size: 40px;
+  color: black;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.proce .txttienda1 {
+  font-size: 37.3px;
+  color: black;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.proce .txttienda2 {
+  font-size: 40.5px;
+  color: black;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.proce .intel5 {
+  height: 250px;
+  height: 200px;
+}
+.proce .p-one {
+  font-size: 50px;
+  margin-top: 50px;
+  color: #4675b9;
+  font-family: Montserrat, sans-serif;
+  margin-left: 40px;
+}
+.proce .sumar {
+  background-color: #fd611a;
+  margin-left: 300px;
+  text-align: center;
+  margin-left: 1px;
+  margin-bottom: 0.5em;
+  display: inherit;
+  margin-top: 50px;
+  color: white;
 }
 
 .rx {
@@ -99,6 +157,19 @@ h4 {
   font-family: sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/nebulosa.jpg");
+  background-attachment: fixed;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
 .enviotit {
   color: white;
   text-align: center;
@@ -120,30 +191,6 @@ h4 {
   margin-top: 20px;
   margin-bottom: 110px;
   border: 5px solid orange;
-}
-
-.nh1 {
-  margin: 100px;
-  color: white;
-  text-align: center;
-}
-
-.txtnosotros {
-  background-color: rgb(250, 230, 141);
-  color: black;
-  height: auto;
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 68px;
-  border: 5px solid orange;
-}
-
-.ryi {
-  width: 400px;
-  height: 400px;
-  display: block;
-  margin: auto;
-  margin-bottom: 80px;
 }
 
 .tit1 {
@@ -172,79 +219,32 @@ h4 {
   height: 300px;
 }
 
-.proce {
-  background-color: white;
-  border: 3px solid black;
-  margin-right: 100px;
-  display: inline-block;
-  margin-left: 10%;
-  margin-top: 2%;
-}
-.proce .intel {
-  height: 200px;
-  width: auto;
-}
-.proce .intel1 {
-  height: 180px;
-  width: 180px;
-  background-color: white;
-  margin-top: 20px;
-}
-.proce .intel2 {
-  height: 180px;
-  width: 200px;
-  margin-top: 20px;
-}
-.proce .intel3 {
-  height: 150px;
-  width: 210px;
-  margin-top: 50px;
-}
-.proce .intel4 {
-  height: 250px;
-  width: 250px;
-}
-.proce .tit1 {
-  margin-top: 60px;
-}
-.proce .txttienda {
-  font-size: 40px;
-  color: black;
-  margin-top: 0px;
-  margin-left: 30px;
-}
-.proce .txttienda1 {
-  font-size: 37.3px;
-  color: black;
-  margin-top: 0px;
-  margin-left: 30px;
-}
-.proce .txttienda2 {
-  font-size: 40.5px;
-  color: black;
-  margin-top: 0px;
-  margin-left: 30px;
-}
-.proce .intel5 {
-  height: 250px;
-  height: 200px;
-}
-.proce .p-one {
-  font-size: 50px;
-  margin-top: 50px;
-  color: #4675b9;
-  font-family: Montserrat, sans-serif;
-  margin-left: 40px;
-}
-.proce .sumar {
-  background-color: #fd611a;
-  margin-left: 300px;
-  text-align: center;
-  margin-left: 1px;
-  margin-bottom: 0.5em;
-  display: inherit;
-  margin-top: 50px;
+.nh1 {
+  margin: 100px;
   color: white;
+  text-align: center;
+}
+
+.txtnosotros {
+  background-color: rgb(250, 230, 141);
+  color: black;
+  height: auto;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 68px;
+  border: 5px solid orange;
+}
+
+.ryi {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+header {
+  margin-bottom: 100px;
 }
 
 footer {
